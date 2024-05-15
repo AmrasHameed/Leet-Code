@@ -1,16 +1,15 @@
-            return new TreeNode(value)
+    function insertNode(root, node) {
+    }
         }
-        if (root.val > value) {
-            root.left = insertNode(root.left, value)
+            insertNode(root, node)
         } else {
-            root.right = insertNode(root.right, value)
+            return node
         if (!root) {
-        }
-    }
-    for (let item of preorder) {
-        root = insertNode(root, item)
-    }
-    return root
-        return root
-};
+        const node = new TreeNode(value)
+    function insert(root, value) {
+    let root = null
+var bstFromPreorder = function (preorder) {
+
+ */
+            return root
 [
