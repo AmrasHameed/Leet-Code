@@ -1,13 +1,15 @@
-    }
-    inOrder(p, arr1)
-        inOrder(root.right, arr)
-        arr.push(root.val)
-        inOrder(root.left, arr)
-    inOrder(q, arr2)
-    console.log(arr1, arr2)
-    if (arr1.length !== arr2.length || arr1.toString() !== arr2.toString()) {
-        return false
-    }
-    return true
-};
+        }
+            return
+        if (!root) {
+            arr.push(null)
+    let arr2 = []
+    function inOrder(root, arr) {
+    let arr1 = []
+var isSameTree = function (p, q) {
+ */
+ * @return {boolean}
+ * @param {TreeNode} q
+ * @param {TreeNode} p
+/**
+ */
 [
