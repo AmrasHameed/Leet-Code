@@ -4,8 +4,8 @@
  */
 var plusOne = function(digits) {
     digits = digits.join('')
+    digits = BigInt(digits)
     digits++
     return digits.toString().split('')
-    digits = BigInt(digits)
 };
 [
