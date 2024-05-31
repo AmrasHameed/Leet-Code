@@ -1,15 +1,13 @@
-        }
-            return
-        if (!root) {
-            arr.push(null)
-    let arr2 = []
-    function inOrder(root, arr) {
-    let arr1 = []
-var isSameTree = function (p, q) {
- */
- * @return {boolean}
- * @param {TreeNode} q
- * @param {TreeNode} p
 /**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
  */
-[
+/**
+ * @param {TreeNode} p
+ * @param {TreeNode} q
+ * @return {boolean}
+[1,2,3]
