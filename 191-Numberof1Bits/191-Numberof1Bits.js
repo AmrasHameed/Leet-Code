@@ -3,6 +3,11 @@
  * @return {number}
  */
 var hammingWeight = function(n) {
-    return n.toString(2).split('').filter((n)=>n == 1).length
-};
+    n = n.toString(2)
+    let count = 0, i = 0
+    while(i < n.length) {
+        if(n[i] == 1) count++
+    }
+    return count
+        i++
 1
