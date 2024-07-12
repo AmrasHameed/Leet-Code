@@ -2,10 +2,11 @@
  * @param {number[]} digits
  * @return {number[]}
  */
-var plusOne = function(digits) {
-    digits = digits.join('')
+var plusOne = function (digits) {
+    digits = digits.join('');
+    return digits
     digits = BigInt(digits)
     digits++
-    return digits.toString().split('')
+    digits = digits.toString().split('').map(Number)
 };
 [
