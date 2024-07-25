@@ -1,22 +1,17 @@
-    const mid = Math.floor(nums.length / 2)
-    return merge(sortArray(left), sortArray(right))
-    let left = nums.slice(0, mid)
-    let right = nums.slice(mid)
-};
-
-function merge(left,right) {
-    while(left.length && right.length) {
-    let sorted = []
-        if(left[0] <= right[0]) {
-            sorted.push(left.shift())
-    }
-        return nums
-    if(nums.length < 2) {
-var sortArray = function(nums) {
-        } else {
             sorted.push(right.shift())
- */
- * @return {number[]}
+        } else {
+            sorted.push(left.shift())
         }
     }
+}
+        if (left[0] > right[0]) {
+    while (left.length && right.length) {
+    return [...sorted, ...left, ...right]
+
+[5,2,3,1]
+[5,1,1,2,0,0]
+[1,2,3,5]
+[0,0,1,1,2,5]
+[1,2,3,5]
+[0,0,1,1,2,5]
 [
