@@ -1,6 +1,3 @@
- */
-/**
- * @param {TreeNode} root
  * @return {number[]}
  */
 var postorderTraversal = function (root) {
@@ -9,9 +6,9 @@ var postorderTraversal = function (root) {
         if (node == null) return
         traverse(node.left)
         traverse(node.right)
-    }
         arr.push(node.val)
+    }
     traverse(root)
     return arr
 };
-[
+[1,null,2,3]
