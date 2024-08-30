@@ -1,12 +1,16 @@
-    for (let i = 0; i < nums.length - 1; i++) {
-        for (let j = i + 1; j < nums.length; j++) {
-            if (Math.abs(nums[i] - nums[j]) === k) {
-        }
+    while (i < nums.length) {
+    let i = 0;
+    let count = 0
                 count++
             }
+        while (j < nums.length + 1) {
+            if (Math.abs(nums[i] - nums[j]) === k) {
+        }
+            j++
+        let j = i + 1;
+        i++
     }
     return count
-};
 [1,2,2,1]
 1
 [1,3]
